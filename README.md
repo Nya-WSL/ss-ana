@@ -9,6 +9,14 @@ or
 
 `poetry install`
 
+- If you use Python 3.8 or lower, located in Chinese Mainland, you can use
+
+`mv pyproject.toml pyproject.toml.bak && cp pyproject_38_cn.toml pyproject.toml && poetry install`
+
+- If you are using Python 3.8 or lower, you can use
+
+`mv pyproject.toml pyproject.toml.bak && cp pyproject_38.toml pyproject.toml && poetry install`
+
 ### Run
 
 - `python/python3 main.py`
