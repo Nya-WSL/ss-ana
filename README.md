@@ -5,9 +5,11 @@
 
 `pip install -r requirements.txt`
 
-### Run
+or
 
-- `mkdir data`
+`poetry install`
+
+### Run
 
 - `python/python3 main.py`
 
